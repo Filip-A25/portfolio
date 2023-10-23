@@ -1,0 +1,51 @@
+@import "./vars-main.scss";
+
+/* ---------------------------------- */
+/* --------- GLOBAL CLASSES --------- */
+/* ---------------------------------- */
+
+@mixin flexVertical() {
+    display: flex;
+    align-items: center;
+}
+
+@mixin flexHorizontal() {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin flexCentered() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin standardButton() {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+@mixin casualTextColor() {
+    color: $casual-font-color;
+}
+
+@mixin noMargin() {
+    margin: 0;
+}
+
+@mixin colorText() {
+    color: $main-color-theme;
+}
+
+@mixin section($height) {
+    height: $height;
+    width: 100%;
+    display: flex;
+}
+
+@mixin frame($height, $width, $background) {
+    height: $height;
+    width: $width;
+    background: $background;
+}

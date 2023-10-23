@@ -1,5 +1,6 @@
 import NavButton from "./NavButton";
 import ProjectItem from "./ProjectItem";
+import TechItem from "./TechItem";
 
 function MainPage() {
     return (
@@ -60,7 +61,7 @@ function MainPage() {
 
             <div id="proj-anchor" className="projects-section">
                 <section className="projects-section-header">
-                    <h1>Projects</h1>
+                    <h1>My recent works</h1>
                 </section>
                 <section className="project-items">
                     <ProjectItem
@@ -80,6 +81,39 @@ function MainPage() {
                         href="#"
                         src=""
                         descText="Etiam placerat lectus et nulla mattis, auctor accumsan sem vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. "
+                    />
+                </section>
+            </div>
+
+            <div className="technologies-section">
+                <section className="technologies-section-header">
+                    <h1>What I use to code</h1>
+                </section>
+                <section className="technologies-content-section">
+                    <TechItem
+                        name="HTML"
+                        src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg"
+                        descText=""
+                    />
+                    <TechItem
+                        name="JavaScript"
+                        src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
+                        descText=""
+                    />
+                    <TechItem
+                        name="React.js"
+                        src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+                        descText=""
+                    />
+                    <TechItem
+                        name="CSS"
+                        src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg"
+                        descText=""
+                    />
+                    <TechItem
+                        name="SASS"
+                        src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg"
+                        descText=""
                     />
                 </section>
             </div>

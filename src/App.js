@@ -1,8 +1,8 @@
 import './App.css';
 import MainPage from "./components/MainPage";
-import "./global-styles.css";
-import "./content-styles.css";
-import "./vars-main.css";
+import "./styling/global-styles.css";
+import "./styling/content-styles.css";
+import "./styling/vars-main.css";
 
 function App() {
   return (
